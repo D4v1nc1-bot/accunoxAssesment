@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: assesment-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: assesment
+  template:
+    metadata:
+      labels:
+        app: assesment
+    spec:
+      containers:
+      - name: assesment
+        image: prashant040/assesment:latest
+        ports:
+        - containerPort: 3000
