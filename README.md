@@ -1,7 +1,7 @@
 # accunoxAssesment
 
 Application Integration Test
-For this assignment, we create an integration test for a simple frontend-backend application using Selenium WebDriver in Java to test interaction with the frontend and backend services.
+For this assignment, I create an integration test script for a simple frontend-backend application using Selenium WebDriver in Java to test interaction with the frontend and backend services.
 
 Prerequisites:-
 Make sure to have the below installed before running the tests:
