@@ -1,14 +1,14 @@
 # Practical Assessment : Problem Statement 1
 
 # Prerequisites
-1.	Install either Docker desktop
+1.	Install Docker desktop
 2.	Clone the git repository.
 
 **Kubernetes Deployment:**
 
 Deploy the services to a local Kubernetes cluster (e.g., Minikube).
 
-STEP 2: Create a local minikube cluster.
+STEP 1: Create a local minikube cluster.
                 
                 minikube start
                 minikube status
@@ -25,7 +25,7 @@ STEP 2: Create a local minikube cluster.
 
 
 
-STEP 3: Deploy the kubernetes services which are in Deployment folder of the above repository. Follow the below mentioned command:
+STEP 2: Deploy the kubernetes services which are in Deployment folder of the above repository. Follow the below mentioned command:
           
           $ kubectl apply -f ./Deployment/
             deployment.apps/backend-deployment created
