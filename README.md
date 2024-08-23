@@ -1,5 +1,4 @@
-# accunoxAssesment
-
+Practical Assessment : Problem Statement 1
 Application Integration Test
 For this assignment, I create an integration test script for a simple frontend-backend application using Selenium WebDriver in Java to test interaction with the frontend and backend services.
 
