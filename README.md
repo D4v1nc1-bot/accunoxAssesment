@@ -53,7 +53,6 @@ STEP 2: Deploy the kubernetes services which are in Deployment folder of the abo
 
   **STEP 3**: Check if the URL is working.
 
-          simra@Simranjeet MINGW64 ~
           $ curl http://127.0.0.1:60931/
             StatusCode        : 200
             StatusDescription : OK
